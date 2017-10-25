@@ -1,8 +1,11 @@
 use strict;
 use warnings;
+use lib 'lib';
 
 use Test::More;
 
-ok(1);
+use_ok 'Foo';
+
+ok(Foo->new);
 
 done_testing;
