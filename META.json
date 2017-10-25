@@ -1,11 +1,12 @@
 {
-   "abstract" : "Foo",
+   "abstract" : "test",
    "author" : [
-      "Viacheslav Tykhanovskyi, C<vti@cpan.org>."
+      "vti"
    ],
    "dynamic_config" : 0,
+   "generated_by" : "Minilla/v3.0.13, CPAN::Meta::Converter version 2.150010",
    "license" : [
-      "artistic_2"
+      "unknown"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -14,7 +15,14 @@
    "name" : "Foo",
    "no_index" : {
       "directory" : [
-         "t"
+         "t",
+         "xt",
+         "inc",
+         "share",
+         "eg",
+         "examples",
+         "author",
+         "builder"
       ]
    },
    "prereqs" : {
@@ -31,12 +39,6 @@
             "Test::Pod" : "1.41",
             "Test::Spellunker" : "v0.2.7"
          }
-      },
-      "runtime" : {
-         "requires" : {
-            "Carp" : "0",
-            "Scalar::Util" : "0"
-         }
       }
    },
    "release_status" : "unstable",
@@ -52,7 +54,10 @@
       }
    },
    "version" : "0.01",
+   "x_authority" : "cpan:VTI",
    "x_contributors" : [
+      "vti <viacheslav.t@gmail.com>",
+      "vti <vti@clarive.com>"
    ],
-   "x_serialization_backend" : "JSON::PP version 2.27300_01"
+   "x_serialization_backend" : "JSON::PP version 2.27400_02"
 }

@@ -15,3 +15,12 @@ sub new {
 }
 
 1;
+__END__
+
+=head1 NAME
+
+Foo - test
+
+=head1 AUTHOR
+
+vti
